@@ -29,10 +29,12 @@
   <section id="hero"
     class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
     <main>
-      <h4>Kepada <span>Bapak/Ibu/Saudara/i, </span></h4>
-      <h1>Erick & Nabila </h1>
-      <p>Akan melangsungkan resepsi pernikahan dalam:</p>
-      <div class="simply-countdown"></div>
+      <h2>Undangan Pernikahan</h2>
+      <h4>18 NOVEMBER 2024</h4>
+      <h1>N & E </h1>
+      <h4>Kepada <span>Bapak/Ibu/Saudara/i </span></h4>
+      <span id="nama-span"></span>
+      <br>
       <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Undangan</a>
     </main>
 
@@ -40,14 +42,14 @@
 
   <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
     <div class="container">
-      <a class="navbar-brand" href="#">Erick & Nabila</a>
+      <a class="navbar-brand" href="#">Nabila & Erick</a>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
         aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">E & N</h5>
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">N & E</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -55,7 +57,7 @@
             <a class="nav-link" href="#home">Home</a>
             <a class="nav-link" href="#info">Info</a>
             <a class="nav-link" href="#gallery">Gallery</a>
-            <a class="nav-link" href="#rsvp">RSVP</a>
+            <!-- <a class="nav-link" href="#rsvp">RSVP</a> -->
             <a class="nav-link" href="#gifts">Gifts</a>
           </div>
         </div>
@@ -64,7 +66,16 @@
   </nav>
 
   <section id="home" class="home">
-    <img src="img/orangtua.JPG" alt="Bpk. Muksin dan Ibu Ikah" style="
+    <div style="text-align: center; line-height: 1.2;">
+      <h3 style="display: inline-block; border-bottom: 2px solid black; font-weight: bold; margin-bottom: 5px;">
+          BPK. MUKSIN
+      </h3>
+      <h3 style="font-weight: bold; margin: 5px 0;">
+          IBU IKAH ATIKAH
+      </h3>
+  </div>
+  
+    <img src="img/orangtua.png" alt="Bpk. Muksin dan Ibu Ikah Atikah" style="
     max-width: 100%;
     height: 600px;
     width: auto;
@@ -77,22 +88,22 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 text-center">
-          <h2>Acara Pernikahan</h2>
-          <h3>Diselenggarakan pada 18 November 2024 di Kuningan, Jawa Barat.</h3>
-          <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i, untuk hadir
+          <!-- <h2>Acara Pernikahan</h2> -->
+          <p>Dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i, untuk hadir
             pada acara pernikahan putra putri kami. </p>
         </div>
       </div>
 
       <div class="row couple">
+
         <div class="col-lg-6">
           <div class="row">
             <div class="col-8 text-end">
-              <h3>Erick Giral Anfasha, S.T.</h3>
-              <p>Putra dari Bpk. Wawan Irawan <br> dan <br> Ibu Leli Nurlaeliah</p>
+              <h3>Nabila Nur Afifah, S.KM.</h3>
+              <p>Putri dari Bpk. Muksin <br> dan <br> Ibu Ikah Atikah</p>
             </div>
             <div class="col-4">
-              <img src="img/erick.png" alt="Erick Giral Anfasha" class="img-responsive rounded-circle">
+              <img src="img/nabila.png" alt="Nabila Nur Afifah" class="img-responsive rounded-circle flip-horizontal">
             </div>
           </div>
         </div>
@@ -102,14 +113,15 @@
         <div class="col-lg-6">
           <div class="row">
             <div class="col-4">
-              <img src="img/nabila.png" alt="Nabila Nur Afifah" class="img-responsive rounded-circle">
+              <img src="img/erick.png" alt="Erick Giral Anfasha" class="img-responsive rounded-circle flip-horizontal">
             </div>
             <div class="col-8">
-              <h3>Nabila Nur Afifah, S.KM.</h3>
-              <p>Putri dari Bpk. Muksin <br> dan <br> Ibu Ikah Atikah</p>
+              <h3>Erick Giral Anfasha, S.T.</h3>
+              <p>Putra dari Bpk. Wawan Irawan <br> dan <br> Ibu Leli Nurlaeliah</p>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -117,29 +129,16 @@
 
   <section id="info" class="info">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-8 col-10 text-center">
-          <h2>Informasi Acara</h2>
-          <p class="alamat">Untuk Alamat acara pernikahan dapat dilihat dari Maps berikut ini.</p>
-
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.3031084919894!2d108.49650319999999!3d-6.8542252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f190045d1687d%3A0xfdaf47631c1890be!2sRumah%20Bpk%20Muksin%20%2F%20Ikah!5e0!3m2!1sid!2sid!4v1729171084173!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-          <!-- <a href="https://goo.gl/maps/R9seweCadg9MNyox5" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk
-            membuka peta</a> -->
-          <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak
-            ada tanda-tanda sedang dilangsungkan pernikahan, boleh jadi Anda salah jadwal, atau salah tempat.</p>
-        </div>
-      </div>
-
+      <h2 style="text-align: center;">Informasi Acara</h2>
       <div class="row justify-content-center mt-4">
         <div class="col-md-5 col-10">
           <div class="card text-center text-bg-light mb-5">
-            <div class="card-header">Akad & Resepsi Nikah</div>
+            <div class="card-header">Akad Nikah</div>
             <div class="card-body">
               <div class="row justify-content-center">
                 <div class="col-md-6">
                   <i class="bi bi-clock d-block"></i>
-                  <span>08.00 - Selesai</span>
+                  <span>08.00 WIB - SELESAI</span>
                 </div>
                 <div class="col-md-6">
                   <i class="bi bi-calendar3 d-block"></i>
@@ -148,78 +147,52 @@
               </div>
             </div>
             <div class="card-footer">
+              Kediaman mempelai Wanita (Rumah Bpk. Muksin & Ibu Ikah).<br>
               Jl. Baru Babakan, RT 023 / RW 009, Dusun Kliwon, Desa Sampora, Kec. Cilimus.
             </div>
+          </div>
+
+
+          <div class="card text-center text-bg-light mb-5">
+            <div class="card-header">Resepsi Nikah</div>
+            <div class="card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-clock d-block"></i>
+                  <span>10.00 WIB - SELESAI</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-calendar3 d-block"></i>
+                  <span>Senin, 18 November 2024</span>
+                </div>
+              </div>
+            </div>
             <div class="card-footer">
-              Akad dan Resepsi akan dilangsungkan pada kediaman mempelai Wanita (Rumah Bpk. Muksin & Ibu Ikah).
+              Kediaman mempelai Wanita (Rumah Bpk. Muksin & Ibu Ikah).<br>
+              Jl. Baru Babakan, RT 023 / RW 009, Dusun Kliwon, Desa Sampora, Kec. Cilimus.
             </div>
           </div>
+
+        </div>
+
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- <section id="story" class="story">
-    <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 col-10 text-center">
-          <span>Bagaimana Cinta Kami Bersemi</span>
-          <h2>Cerita Kami</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, similique non soluta nulla asperiores
-            voluptatem.</p>
+          <p class="alamat">Untuk Alamat acara pernikahan dapat dilihat dari Maps berikut ini.</p>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.3031084919894!2d108.49650319999999!3d-6.8542252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f190045d1687d%3A0xfdaf47631c1890be!2sRumah%20Bpk%20Muksin%20%2F%20Ikah!5e0!3m2!1sid!2sid!4v1729171084173!5m2!1sid!2sid"  width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          <!-- <a href="https://goo.gl/maps/R9seweCadg9MNyox5" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk
+            membuka peta</a> -->
+          <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak
+            ada tanda-tanda sedang dilangsungkan pernikahan, boleh jadi Anda salah jadwal, atau salah tempat.</p>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col">
-          <ul class="timeline">
-            <li>
-              <div class="timeline-image" style="background-image: url(img/sman23.jpg);"></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h3>Pertama Bertemu</h3>
-                  <span>1 Juni 2000</span>
-                </div>
-                <div class="timeline-body">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, modi autem? Commodi autem quo quia?
-                  </p>
-                </div>
-              </div>
-
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image" style="background-image: url(https://picsum.photos/300/300);"></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h3>Mulai Serius</h3>
-                  <span>1 Januari 2005</span>
-                </div>
-                <div class="timeline-body">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto enim eaque obcaecati odit
-                    itaque explicabo quisquam quos at.
-                  </p>
-                </div>
-              </div>
-
-            </li>
-            <li>
-              <div class="timeline-image" style="background-image: url(https://picsum.photos/301/301);"></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h3>Tunangan</h3>
-                  <span>7 November 2009</span>
-                </div>
-                <div class="timeline-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, deleniti distinctio. Esse quas sit
-                  explicabo corporis magni qui expedita a.
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
     </div>
-  </section> -->
+  </section>
 
   <section id="gallery" class="gallery">
     <div class="container">
@@ -282,72 +255,6 @@
     </div>
   </section>
 
-  <section id="rsvp" class="rsvp">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-8 col-10 text-center">
-          <h2>Konfirmasi Kehadiran</h2>
-          <p>Isi form di bawah ini untuk melakukan konfirmasi kehadiran.</p>
-        </div>
-      </div>
-
-      <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST"
-        action="https://script.google.com/macros/s/AKfycbyddFbEJRqwEeA6OmZAuNf0jw_B30ZUOS5qSDwlAKV_nurcW7H6osJx2ZWnIeTmPm_35g/exec"
-        id="my-form">
-        <div class="col-12">
-          <div class="mb-3">
-            <label for="nama" class="form-label">Nama</label>
-            <input type="text" class="form-control" id="nama" name="nama">
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="mb-3">
-            <label for="jumlah" class="form-label">Jumlah</label>
-            <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1">
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="mb-3">
-            <label for="status" class="form-label">Konfirmasi</label>
-            <select name="status" id="status" class="form-select">
-              <option selected>Pilih salah satu</option>
-              <option value="Hadir">Hadir</option>
-              <option value="Tidak Hadir">Tidak Hadir</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-12" style="margin-top: 35px;">
-          <button class="btn btn-primary">Kirim</button>
-        </div>
-      </form>
-
-      <div class="row justify-content-center mt-5">
-        <div class="col-md-6">
-          <div id="disqus_thread"></div>
-          <script>
-            /**
-            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-
-            var disqus_config = function () {
-              this.page.url = 'https://egdroid666.github.io/notes-app/';  // Replace PAGE_URL with your page's canonical URL variable
-              this.page.identifier = 'hhttps://egdroid666.github.io/notes-app/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-            };
-
-            (function () { // DON'T EDIT BELOW THIS LINE
-              var d = document, s = d.createElement('script');
-              s.src = 'https://dino-wedding-1.disqus.com/embed.js';
-              s.setAttribute('data-timestamp', +new Date());
-              (d.head || d.body).appendChild(s);
-            })();
-          </script>
-          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
-              Disqus.</a></noscript>
-        </div>
-      </div>
-
-    </div>
-  </section>
 
   <section id="gifts" class="gifts">
     <div class="container">
@@ -364,17 +271,17 @@
         <div class="col-md-6">
           <ul class="list-group">
             <li class="list-group-item">
-              <div class="fw-bold">BSI</div>
-              7221785031  - Nabila Nur Afifah
+              <div class="fw-bold">BRI</div>
+              427001006204530 - Muksin
             </li>
-            <li class="list-group-item">
+            <!-- <li class="list-group-item">
               <div class="fw-bold">Seabank</div>
               901582426510 - Erick Giral Anfasha
             </li>
             <li class="list-group-item">
               <div class="fw-bold">Shopee Pay</div>
               <img src="img/shopeepay.jpg" alt="Shopee Pay" class="img-thumbnail" width="150">
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -515,15 +422,20 @@
     });
 
   </script>
-  <script>
-    const urlParams = new URLSearchParams(window.location.search);
-    const nama = urlParams.get('n') || '';
-    const pronoun = urlParams.get('p') || 'Bapak/Ibu/Saudara/i';
-    const namaContainer = document.querySelector('.hero h4 span');
-    namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ',');
+<script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const nama = urlParams.get('n') || '';
+  const pronoun = urlParams.get('p') || 'Bapak/Ibu/Saudara/i';
+  
+  // Set pronoun pada h4 seperti biasa
+  const namaContainer = document.querySelector('.hero h4 span');
+  namaContainer.innerText = `${pronoun}`; // Hanya menambahkan koma setelah pronoun
 
-    document.querySelector('#nama').value = nama;
-  </script>
+  // Menyimpan nama di bawah h4
+  const namaSpan = document.querySelector('#nama-span');
+  namaSpan.innerText = nama ? `${nama},` : ''; // Menambahkan nama ke span yang baru
+</script>
+
   
 </body>
 
